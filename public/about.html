@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redline Web Studio — About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="logo">Redline<span>Studio</span></div>
+      <nav class="nav">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="about.html">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <button class="btn btn-ghost">Book a Call</button>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-inner">
+          <div class="hero-eyebrow">About the Studio</div>
+          <h1 class="hero-title">
+            We build bold,
+            <span class="glow">red + black</span>
+            experiences.
+          </h1>
+          <p class="hero-subtitle">
+            Redline Studio is a boutique web development partner focused on high-impact
+            portfolios and brand sites. We blend strategy, motion, and performance to
+            create experiences that convert.
+          </p>
+          <div class="hero-cta">
+            <button class="btn btn-primary magnetic">Meet the Team</button>
+            <a class="btn btn-outline magnetic" href="index.html#contact">Start a Project</a>
+          </div>
+        </div>
+        <div class="hero-orbit">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <p class="section-kicker">Our Story</p>
+          <h2>Crafted for teams that move fast.</h2>
+        </div>
+        <div class="process">
+          <div class="process-step reveal">
+            <span>2019</span>
+            <div>
+              <h3>Studio Launch</h3>
+              <p>We started as a two-person studio building lean portfolios for founders.</p>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <span>2021</span>
+            <div>
+              <h3>Product Expansion</h3>
+              <p>Expanded into brand systems, UI kits, and growth-focused sites.</p>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <span>2024</span>
+            <div>
+              <h3>Global Clients</h3>
+              <p>Delivered work across fintech, fashion, and SaaS teams worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="team">
+        <div class="section-header">
+          <p class="section-kicker">Team</p>
+          <h2>Small team, big energy.</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <h3>Creative Director</h3>
+            <p>Shapes the visual systems, motion language, and brand tone.</p>
+          </div>
+          <div class="service-card reveal">
+            <h3>Lead Developer</h3>
+            <p>Builds fast, accessible, and scalable web experiences.</p>
+          </div>
+          <div class="service-card reveal">
+            <h3>Strategy Partner</h3>
+            <p>Owns positioning, messaging, and conversion architecture.</p>
+          </div>
+          <div class="service-card reveal">
+            <h3>Production Studio</h3>
+            <p>Network of specialists for 3D, copy, and interactive storytelling.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <p class="section-kicker">Values</p>
+          <h2>How we work.</h2>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial reveal">
+            <p>We move fast without sacrificing craft or clarity.</p>
+            <span>Velocity with precision</span>
+          </div>
+          <div class="testimonial reveal">
+            <p>Every interaction should feel intentional, cinematic, and human.</p>
+            <span>Design with emotion</span>
+          </div>
+          <div class="testimonial reveal">
+            <p>We care about outcomes, not just visuals.</p>
+            <span>Performance focused</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-header">
+          <p class="section-kicker">Let’s Talk</p>
+          <h2>Tell us about your next launch.</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Start your project</h3>
+            <p>Share goals, scope, and timeline. We’ll reply within 24 hours.</p>
+            <div class="contact-details">
+              <div>
+                <span>Email</span>
+                <strong>hello@redline.studio</strong>
+              </div>
+              <div>
+                <span>Availability</span>
+                <strong>New slots opening monthly</strong>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+            <input type="hidden" name="form-name" value="contact" />
+            <label class="hidden-field">
+              Don’t fill this out if you’re human
+              <input name="bot-field" />
+            </label>
+            <div class="input-row">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Jane Doe" required />
+              </label>
+              <label>
+                Company
+                <input type="text" name="company" placeholder="Acme Inc." />
+              </label>
+            </div>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@company.com" required />
+            </label>
+            <label>
+              Project Details
+              <textarea name="message" rows="4" placeholder="Tell us about your goals..." required></textarea>
+            </label>
+            <button class="btn btn-primary magnetic" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>© 2026 Redline Studio. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="index.html#top">Back to top</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
