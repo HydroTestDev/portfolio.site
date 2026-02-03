@@ -1,0 +1,11 @@
+{
+  "name": "redline-freelance-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static portfolio site for a UK-based freelance developer.",
+  "scripts": {
+    "start": "npx serve public",
+    "dev": "npx serve public",
+    "build": "echo \"No build step needed\""
+  }
+}
